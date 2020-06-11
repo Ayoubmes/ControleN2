@@ -1,0 +1,6 @@
+.mw30-text {max-height: 30px; overflow: hidden;}
+.mh200-text {
+min-height: 200px;
+max-height:200px;
+overflow: hidden;
+}

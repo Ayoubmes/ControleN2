@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+<div class="recommended-cars">
+    <div class="container">
+        <div class="row" class="ads">
+	    <div class="col-md-12">
+		<div class="card">
+		    <div class="card-body">
+		        <h5> List of Cars </h5>
+		    <div class="row py-2">
+                <div class="col-md-4 vertical-box" *ngFor="let item of cars" style="float: left;">
+		             <div class="card">
+                      <img class="card-img-top mh200-text" [src]="item.image" alt="Card image" alt="Alternate Text">
+                      <div class="card-body">
+                        <h4 class="card-title mw30-text">{{item.n_immatriculation}}</h4>
+                        <span (click)="goToCarsDetail(item)" style="cursor: pointer;" class="btn btn-outline-primary">View Car</span>
+  </div>
+</div> 
+		         </div>		        
+		     </div>
+		    </div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
